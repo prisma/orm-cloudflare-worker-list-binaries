@@ -1,0 +1,7 @@
+name = "list-binaries"
+main = "src/worker.ts"
+compatibility_date = "2023-05-24"
+
+r2_buckets  = [
+  { binding = "PRISMA_BUILDS_BUCKET", bucket_name = "prisma-builds"}
+]
